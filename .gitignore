@@ -1,0 +1,25 @@
+cat << 'EOF' >> .gitignore
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Data Directory (Prevents uploading dataset files)
+data/
+raw_data/
+*.jsonl
+*.json
+tweets.js
+Users/
+
+# Python Caches & Bytecode
+__pycache__/
+*.pyc
+
+# IDE / Editor Files
+.vscode/
+.idea/
+
+# Environment / API Keys
+.env
+EOF
